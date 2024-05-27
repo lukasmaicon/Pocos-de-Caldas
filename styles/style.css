@@ -1,0 +1,448 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("../img/fundo.jpg");
+  background-size: cover;
+}
+
+header {
+  background: linear-gradient(180deg, rgb(66, 95, 61) 0%, rgb(51, 92, 59) 100%, rgba(54, 84, 33, 0.329) 100%);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  color: white;
+}
+
+.nav-bar li {
+  list-style: none;
+  padding: 25px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+a:hover {
+  color: #ffffffb4;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+#scroll {
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(180deg, rgb(66, 95, 61) 0%, rgb(51, 92, 59) 100%, rgba(54, 84, 33, 0.329) 100%);
+  border-radius: 5px;
+  padding: 5px;
+  position: fixed;
+  right: 6px;
+  bottom: 10px;
+}
+
+.marg {
+  margin-left: 10%;
+  margin-right: 10%;
+  background: linear-gradient(180deg, rgb(66, 95, 61) 0%, rgb(51, 92, 59) 100%, rgba(54, 84, 33, 0.329) 100%);
+  border-radius: 10px;
+  margin-top: 25px;
+  padding-bottom: 5%;
+  margin-bottom: 25px;
+  clear: both;
+}
+
+.marg-cassino-pontosturisticos-eventos {
+  margin-left: 10%;
+  margin-right: 10%;
+  background: linear-gradient(180deg, rgb(66, 95, 61) 0%, rgb(51, 92, 59) 100%, rgba(54, 84, 33, 0.329) 100%);
+  border-radius: 10px;
+  margin-top: 25px;
+  padding-bottom: 8%;
+  margin-bottom: 25px;
+  clear: both;
+}
+
+.texto , p {
+  text-align: justify;
+  margin: 10px;
+  font-size: 20px;
+}
+
+h1 {
+  margin: 9px;
+  text-align: center;
+  position: relative;
+  top: 18px;
+  left: 15px;
+}
+
+h2 {
+  color: black;
+  font-size: 30px;
+  position: relative;
+  left: 20px;
+  top: 4px;
+}
+
+h3 {
+  color: black;
+  margin: 0;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.index {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1095px;
+  width: 100%;
+}
+
+.index img {
+  position: relative;
+  width: 100%;
+  border: 2px solid;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.cassino {
+  clear: both;
+}
+
+.cassino img {
+  float: right;
+  margin-left: 15px;
+  border: 2px solid black;
+  margin-top: 1%;
+  border-radius: 10px;
+}
+
+.cassino-texto p {
+  width: auto;
+  position: relative;
+  top: 20px
+}
+
+.pontos-turisticos {
+  clear: both;
+}
+
+.pontos-turisticos img {
+  width: 30%;
+  float: right;
+  margin-left: 15px;
+  border: 2px solid black;
+  margin-top: 1%;
+  border-radius: 10px;
+}
+
+.pontos-turisticos-texto p {
+  width: auto;
+  position: relative;
+  top: 20px
+}
+
+.industrias {
+  clear: both;
+}
+
+.industrias img {
+  width: 30%;
+  float: right;
+  margin-left: 15px;
+  border: 2px solid black;
+  margin-bottom: 10%;
+  border-radius: 10px;
+}
+
+.industrias-texto p {
+  width: auto;
+}
+
+.eventos {
+  clear: both;
+}
+
+.eventos img {
+  width: 30%;
+  float: right;
+  margin-left: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.eventos-texto p {
+  margin: auto;
+  position: relative;
+  top: 15px
+}
+
+.fotos {
+  text-align: center;
+  width: 100%;
+}
+
+.fotos img {
+  width: 95%;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 100%;
+  background: linear-gradient(180deg, rgb(66, 95, 61) 0%, rgb(51, 92, 59) 100%, rgba(54, 84, 33, 0.329) 100%);
+  color: black;
+  font-weight: bold; 
+}
+
+@media screen and (max-width: 730px) {
+
+  .nav-bar {
+    z-index: 0px;
+  }
+
+  .logo {
+    padding-right: 60%;
+  }
+
+  .nav-bar li {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 25px;
+    left: 85%;
+  }
+
+  .mobile-menu li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .mobile-menu li a {
+    display: block;
+  }
+
+  .open {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 557px) {
+
+  .texto , p {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+ 
+  .cassino img {
+    width: 100%;
+  }
+
+  .pontos-turisticos img {
+    width: 100%;
+  }
+
+  .industrias img {
+    width: 100%;
+  }
+   
+  .eventos img {
+    width: 100%;
+  }
+
+  .footer {
+    height: 45px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
