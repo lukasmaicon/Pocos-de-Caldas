@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url("../img/2.jpg") fixed center center;
+  background: url("../img/4.jpg") fixed center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background: linear-gradient(180deg, rgba(79, 110, 73, 0.171) 0%, rgba(59, 109, 69, 0.233) 100%, rgba(30, 44, 21, 0.267) 100%);
+  background: linear-gradient(180deg, rgba(79, 110, 73, 0.774) 0%, rgba(59, 109, 69, 0.63) 100%, rgb(30, 44, 21) 100%);
 }
 
 .nav-bar {
@@ -58,7 +58,7 @@ a:hover {
 #scroll {
   text-decoration: none;
   color: black;
-  background: linear-gradient(180deg, rgba(79, 110, 73, 0.521) 0%, rgba(59, 109, 69, 0.945) 100%, rgba(30, 44, 21, 0.897) 100%);
+  background: linear-gradient(180deg, rgba(79, 110, 73, 0.774) 0%, rgba(59, 109, 69, 0.63) 100%, rgb(30, 44, 21) 100%);
   border-radius: 5px;
   padding: 5px;
   position: fixed;
@@ -69,7 +69,7 @@ a:hover {
 .marg {
   margin-left: 10%;
   margin-right: 10%;
-  background: linear-gradient(180deg, rgba(79, 110, 73, 0.521) 0%, rgba(59, 109, 69, 0.945) 100%, rgba(30, 44, 21, 0.897) 100%);
+  background: linear-gradient(180deg, rgba(79, 110, 73, 0.774) 0%, rgba(59, 109, 69, 0.938) 100%, rgb(30, 44, 21) 100%);
   border-radius: 10px;
   margin-top: 25px;
   padding-bottom: 8%;
@@ -210,7 +210,7 @@ h3 {
   align-items: center;
   height: 45px;
   width: 100%;
-  background: linear-gradient(180deg, rgb(79, 110, 73) 0%, rgb(59, 109, 69) 100%, rgb(30, 44, 21) 100%);
+  background: linear-gradient(180deg, rgba(79, 110, 73, 0.774) 0%, rgba(59, 109, 69, 0.63) 100%, rgb(30, 44, 21) 100%);
   color: black;
   font-weight: bold; 
 }
