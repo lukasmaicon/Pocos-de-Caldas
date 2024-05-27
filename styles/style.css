@@ -5,8 +5,15 @@
   scroll-behavior: smooth;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
-  background-image: url("../img/fundo.jpg");
+  background: url("../img/fundo3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
