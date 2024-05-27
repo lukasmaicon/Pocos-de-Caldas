@@ -5,10 +5,6 @@
   scroll-behavior: smooth;
 }
 
-html{
-  scroll-behavior: smooth;
-}
-
 body {
   background: url("../img/2.jpg") fixed center center;
   -webkit-background-size: cover;
