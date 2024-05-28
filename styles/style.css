@@ -6,15 +6,19 @@
 }
 
 body {
-  background: url("../img/4.jpg") fixed center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url("../img/fundo-site.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
 }
 
 header {
-  background: linear-gradient(180deg, rgba(79, 110, 73, 0.774) 0%, rgba(59, 109, 69, 0.63) 100%, rgb(30, 44, 21) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(79, 110, 73, 0.774) 0%,
+    rgba(59, 109, 69, 0.63) 100%,
+    rgb(30, 44, 21) 100%
+  );
 }
 
 .nav-bar {
@@ -58,7 +62,12 @@ a:hover {
 #scroll {
   text-decoration: none;
   color: black;
-  background: linear-gradient(180deg, rgba(79, 110, 73, 0.774) 0%, rgba(59, 109, 69, 0.63) 100%, rgb(30, 44, 21) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(79, 110, 73, 0.774) 0%,
+    rgba(59, 109, 69, 0.63) 100%,
+    rgb(30, 44, 21) 100%
+  );
   border-radius: 5px;
   padding: 5px;
   position: fixed;
@@ -69,7 +78,12 @@ a:hover {
 .marg {
   margin-left: 10%;
   margin-right: 10%;
-  background: linear-gradient(180deg, rgba(79, 110, 73, 0.774) 0%, rgba(59, 109, 69, 0.63) 100%, rgb(30, 44, 21) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(79, 110, 73, 0.774) 0%,
+    rgba(59, 109, 69, 0.63) 100%,
+    rgb(30, 44, 21) 100%
+  );
   border-radius: 10px;
   margin-top: 25px;
   padding-bottom: 8%;
@@ -77,7 +91,8 @@ a:hover {
   clear: both;
 }
 
-.texto , p {
+.texto,
+p {
   text-align: justify;
   margin: 10px;
   font-size: 20px;
@@ -136,7 +151,7 @@ h3 {
 .cassino-texto p {
   width: auto;
   position: relative;
-  top: 20px
+  top: 20px;
 }
 
 .pontos-turisticos {
@@ -155,7 +170,7 @@ h3 {
 .pontos-turisticos-texto p {
   width: auto;
   position: relative;
-  top: 20px
+  top: 20px;
 }
 
 .industrias {
@@ -190,7 +205,7 @@ h3 {
 .eventos-texto p {
   margin: auto;
   position: relative;
-  top: 15px
+  top: 15px;
 }
 
 .fotos {
@@ -210,13 +225,17 @@ h3 {
   align-items: center;
   height: 45px;
   width: 100%;
-  background: linear-gradient(180deg, rgba(79, 110, 73, 0.774) 0%, rgba(59, 109, 69, 0.63) 100%, rgb(30, 44, 21) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(79, 110, 73, 0.774) 0%,
+    rgba(59, 109, 69, 0.63) 100%,
+    rgb(30, 44, 21) 100%
+  );
   color: black;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 @media screen and (max-width: 730px) {
-
   .nav-bar {
     z-index: 0px;
   }
@@ -259,8 +278,8 @@ h3 {
 }
 
 @media screen and (max-width: 557px) {
-
-  .texto , p {
+  .texto,
+  p {
     font-size: 18px;
   }
 
@@ -277,7 +296,7 @@ h3 {
     font-size: 18px;
     padding-top: 20px;
   }
- 
+
   .cassino img {
     width: 100%;
   }
@@ -289,7 +308,7 @@ h3 {
   .industrias img {
     width: 100%;
   }
-   
+
   .eventos img {
     width: 100%;
   }
@@ -298,143 +317,3 @@ h3 {
     height: 45px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
