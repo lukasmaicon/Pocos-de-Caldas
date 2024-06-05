@@ -215,6 +215,24 @@ h3 {
   font-weight: bold;
 }
 
+@media screen and (max-width: 1056px) {
+  .nav-bar li {
+    padding: 16px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 997px) {
+  .nav-bar li {
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  li a {
+    font-size: 17px;
+  }
+}
+
 @media screen and (max-width: 730px) {
   .nav-bar {
     z-index: 0px;
